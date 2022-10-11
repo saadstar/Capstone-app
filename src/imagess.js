@@ -1,4 +1,4 @@
-[
+export const dummyData=[
   {
     "url": "https://github.com/bobziroll/scrimba-react-bootcamp-images/blob/master/pic1.jpg?raw=true",
     "id": "1",

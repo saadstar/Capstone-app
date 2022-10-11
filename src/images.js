@@ -31,7 +31,7 @@ function Image({ className, img }) {
       className={`${className} image-container`}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)} >
-  <img src={img.url} className="image-grid" />
+  <img src={img.url} className="image-grid" alt="" />
         {heartIcon()}
         {carticon()}
     </div>
